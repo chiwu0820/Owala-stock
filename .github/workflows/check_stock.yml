@@ -2,8 +2,8 @@ name: Owala Stock Checker
 
 on:
   schedule:
-    # 每 15 分鐘自動執行一次
-    - cron: '*/15 * * * *'
+    # 每5分鐘自動執行一次
+    - cron: '*/5 * * * *'
   workflow_dispatch: # 允許手動點擊按鈕觸發執行
 
 jobs:
